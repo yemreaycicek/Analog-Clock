@@ -9,6 +9,6 @@ setInterval(() => {
    const ss = date.getSeconds() * 6;
 
    hr.style.transform = `rotateZ(${hh + (mm / 12)}deg)`;
-   min.style.transform = `rotateZ(${mm}deg`;
-   sec.style.transform = `rotateZ(${ss}deg`;
+   min.style.transform = `rotateZ(${mm}deg)`;
+   sec.style.transform = `rotateZ(${ss}deg)`;
 });
